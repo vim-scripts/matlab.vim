@@ -84,6 +84,8 @@ syn keyword matlabImplicit              uicontextmenu uicontextmenu Properties u
 syn keyword matlabImplicit              vander var varargin varargout vectorize ver verctrl version vertcat view viewmtx volumebounds voronoi voronoin 
 syn keyword matlabImplicit              wait waitbar waitfor waitforbuttonpress warndlg warning waterfall wavplay wavread wavrecord wavwrite web weekday what whatsnew which while whitebg who whos wilkinson winopen wk1read wk1write workspace 
 syn keyword matlabImplicit              xlabel ylabel zlabel xlim ylim zlim xlsfinfo xlsread xmlread xmlwrite xor xslt zeros zip zoom
+" Control System Toolbox functions 
+syn keyword matlabImplicit              acker allmargin append augstate balreal bandwidth bode bodemag c2d canon care chgunits conj connect covar ctrb ctrbf d2c d2d damp dare dcgain delay2z dlqr dlyap drss dsort dss dssdata esort estim evalfr feedback filt frd frdata freqresp gensig get gram hasdelay impulse initial interp inv iopzmap isct isdt isempty isproper issiso kalman kalmd lft lqgreg lqr lqrd lqry lsim ltimodels ltiprops ltiview lyap margin minreal modred ndims ngrid nichols norm nyquist obsv obsvf ord2 pade parallel place pole pzmap reg reshape rlocus rss series set sgrid sigma sisotool size sminreal ss ss2ss ssbal ssdata stack step tf tfdata totaldelay zero zgrid zpk zpkdata
 " end changes
 
 syn match matlabError	"-\=\<\d\+\.\d\+\.[^*/\\^]"
