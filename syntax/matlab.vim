@@ -32,7 +32,7 @@ syn match matlabLineContinuation	"\.\{3}"
 "syn match matlabIdentifier		"\<\a\w*\>"
 
 " String
-syn region matlabString			start=+'+ end=+'+	oneline
+syn region matlabString			start=+'+ end=+'+	oneline contains=@Spell
 
 " If you don't like tabs
 syn match matlabTab			"\t"
@@ -51,7 +51,7 @@ syn match matlabTransposeOperator	"[])a-zA-Z0-9.]'"lc=1
 
 syn match matlabSemicolon		";"
 
-syn match matlabComment			"%.*$"	contains=matlabTodo,matlabTab
+syn match matlabComment			"%.*$"	contains=matlabTodo,matlabTab,@Spell
 
 syn keyword matlabOperator		break zeros default margin round ones rand
 syn keyword matlabOperator		ceil floor size clear zeros eye mean std cov
